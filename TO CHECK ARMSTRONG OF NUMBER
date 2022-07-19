@@ -1,0 +1,25 @@
+//ARMSTRONG OF NUMBER
+#include<iostream>
+using namespace std;
+int main()
+{
+    int A,S=0,X,G;
+ A=151;
+  G=151;
+    while(A>0)
+    {
+        X=A%10;
+        S=S*1+X*X*X;
+        A=A/10;
+    }
+    cout<<"CUBE OF NUMBER IS ="<<S;
+    if(S==G)
+    {
+        cout<<"\nARMSTRONG";
+        }
+
+  if(S!=G)
+    {
+        cout<<"\n NOT ARMSTRONG";
+        }
+}
